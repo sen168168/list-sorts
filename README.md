@@ -1,4 +1,4 @@
-# ListSorting
+# list-sorts
 
 
 Simple web app to sort lists with options for A-Z, Z-A, and Random order. Supports input in comma-separated format or numbered vertical lists, preserving the original format in the output.
