@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sort My Lists</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+  <h1>Sort My Lists</h1>
+  <textarea id="inputLists" rows="6" placeholder="e.g.\napple, banana, cherry\n3, 2, 1"></textarea>
+  <button onclick="prepareSort()">Sort</button>
+
+  <div id="listControls"></div>
+  <div id="sortedResults"></div>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

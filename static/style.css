@@ -1,0 +1,29 @@
+body {
+  font-family: sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+textarea,
+select,
+button {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.list-box {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.result {
+  margin-top: 1rem;
+  background: #f0f0f0;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
