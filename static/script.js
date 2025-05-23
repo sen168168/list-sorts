@@ -7,7 +7,7 @@ let originalFormats = [];
 function prepareSort() {
   const input = document.getElementById("inputLists").value.trim();
 
-  // Split input into chunks separated by empty lines
+  // Split input into chunks separated by empty line
   const chunks = input.split(/\n\s*\n/);
   originalFormats = [];
   const lists = [];

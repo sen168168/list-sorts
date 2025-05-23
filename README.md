@@ -40,7 +40,7 @@ Make sure you have Python and Flask installed:
 pip install flask
 ```
 
-then run it
+then run it !!ACTIVATE!! your virtual enviroment if you use one
 
 ```bash
 python app.py

@@ -17,13 +17,22 @@ button {
 .list-box {
   margin-top: 1.5rem;
   padding: 1rem;
-  border: 1px solid #ccc;
+  border: 1px solid #bdbdbd;
   border-radius: 8px;
 }
 
 .result {
   margin-top: 1rem;
-  background: #f0f0f0;
+  background: #bdbdbd;
   padding: 0.5rem;
   border-radius: 5px;
+}
+
+
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+  color: #333;
+  min-height: 100vh;
 }

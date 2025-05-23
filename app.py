@@ -1,6 +1,8 @@
 from flask import Flask, render_template, request, jsonify
 import random
 import re
+import sys
+print("Starting app...", file=sys.stderr)
 
 app = Flask(__name__)
 
